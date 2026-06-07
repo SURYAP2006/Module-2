@@ -3,11 +3,7 @@
 
 ### AIM  
 To write a Python program to check if a number is a Perfect number using the concept of functions.
-
----
-
 ### ALGORITHM
-
 1. Begin the program.  
 2. Read the number `n` from the user using `input()`.  
 3. Convert the input to an integer.  
@@ -17,16 +13,23 @@ To write a Python program to check if a number is a Perfect number using the con
     - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
     - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
 5. Terminate the program.
-
----
-
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
+#Reg.No:212223060280
+#Name: SURYA P
 
+n=int(input())
+sum1=0
+for i in range(1, n):
+    if(n % i == 0):
+        sum1 = sum1 + i
+if(sum1 == n):
+    print("The number is a Perfect number!")
+else:
+    print("The number is not a Perfect number!")
 ```
 ### OUTPUT
+<img width="913" height="221" alt="2b" src="https://github.com/user-attachments/assets/8d7a5106-0b66-42bc-8bdb-71062bbc406c" />
 
 ### RESULT
+Thus a Python program to check if a number is a Perfect number using the concept of functions was executed and implemented successfully.
